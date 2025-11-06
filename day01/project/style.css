@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  height: 100%;
+  background: #616161;
+}
+
+.container {
+  width: 320px;
+  background: #414141;
+  border-radius: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 20px 15px;
+}
+
+.display {
+  background: #111111;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.input-box {
+    height: 100px;
+    width: 100%;
+}
+
+.result {
+  color: #6a32ff;
+  font-size: 1.2rem;
+  margin-top: 4px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.btn {
+  height: 60px;
+  width: 60px;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  background: #111111;
+  color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn:active {
+  box-shadow: inset 2px 2px 5px #d3d3d3, inset -2px -2px 5px #ffffff;
+}
+
+.ac,
+.equal {
+  background-color: #6a32ff;
+  color: #fff;
+}
+
+.equal {
+  grid-row: span 2;
+  height: 120px;
+  border-radius: 25px;
+}
