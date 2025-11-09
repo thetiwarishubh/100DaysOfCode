@@ -11,7 +11,9 @@ const counter = function () {
       display.textContent = count;
     },
     decrement: function () {
-      count--;
+        if(count > 0){
+            count--;
+        }
       display.textContent = count;
     },
     reset: function () {
