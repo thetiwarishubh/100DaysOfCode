@@ -8,3 +8,10 @@ console.log(score % scoreTwo)
 console.log(score ** scoreTwo)
 console.log(++score)
 console.log(--score)
+
+let a = false;
+let b = true;
+
+console.log(a && b)
+console.log(a || b)
+console.log(!a)
