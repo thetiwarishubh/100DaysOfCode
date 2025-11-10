@@ -7,3 +7,8 @@ Dynamic size :- Array can grow or shrink as elements are added ir removed.
 Heterogeneous :- Arrays can store elements of differnt data types(numbers, string, null, undefined, boolean, bigInt, symbol, object and other array.)
  */ 
 
+const myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+myArray.push(11)  //Add element at end
+
+myArray.pop() // Remove element from end
+console.log(myArray)
