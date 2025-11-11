@@ -65,3 +65,7 @@ body {
 strong {
     padding: 0 10px;
 }
+
+.textArea {
+    height: 20px;
+}
