@@ -13,7 +13,7 @@ body {
 .container {
     height: 300px;
     width: 400px;
-    border: 1px solid red;
+    border: 2px solid red;
     border-radius: 10px;
 }
 
@@ -28,7 +28,7 @@ body {
 .display {
     width: 94%;
     height: 80%;
-    background-color: #ffff00;
+    background-color: #00d9ff;
     display: flex;
     justify-content: center;
     align-items: center;
