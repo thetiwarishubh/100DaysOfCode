@@ -21,4 +21,4 @@ const mySecondArray = ["Shubham", "Tiwari", "Delhi", "Japan"];
 console.log(myArray.concat(mySecondArray)); // Output :- [  1,       2,         3,      4,       5,         6,       7,       8,         9,      10,      'Shubham', 'Tiwari',   'Delhi', 'Japan' ]
 //Add two array using concat;
 
-console.log(Object.entries(mySecondArray)) // Use entries for get key value pair for each index;
+console.log(Object.entries(mySecondArray)); // Use entries for get key value pair for each index;

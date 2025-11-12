@@ -31,20 +31,19 @@ do {
   j++;
 } while (j <= 10);
 
-
 const user = {
-    firstname : "Shubham",
-    lastname : "Tiwari",
-    profession : ["Youtuber", "Programmer"]
-}
+  firstname: "Shubham",
+  lastname: "Tiwari",
+  profession: ["Youtuber", "Programmer"],
+};
 
 for (const element in user) {
-    console.log(`element ${element}`)
+  console.log(`element ${element}`);
 }
 
-const arr = ['12', 'shubham', 'tiwari']
+const arr = ["12", "shubham", "tiwari"];
 
-for(let count in arr){
-    // console.log(`${arr}`)
-    console.log(`${arr[count]}`)
+for (let count in arr) {
+  // console.log(`${arr}`)
+  console.log(`${arr[count]}`);
 }
