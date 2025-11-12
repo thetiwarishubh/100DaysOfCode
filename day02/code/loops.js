@@ -39,7 +39,7 @@ const user = {
 
 for (const element in user) {
   console.log(`element ${element}`);
-}
+};
 
 const arr = ["12", "shubham", "tiwari"];
 

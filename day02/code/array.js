@@ -13,12 +13,30 @@ myArray.push(11); //Add element at end
 myArray.pop(); // Remove element from end
 console.log(myArray);
 
+myArray.unshift("Shubham"); // Add Element at begining; 
+console.log(myArray)
+
+myArray.shift()
+console.log(myArray) // Remove element from begining
+
 let index = 5;
 console.log(myArray[index]); // Output :- 6;
 console.log(myArray.at(index)); // Output :- 6;
+
+console.log(myArray.indexOf())
 
 const mySecondArray = ["Shubham", "Tiwari", "Delhi", "Japan"];
 console.log(myArray.concat(mySecondArray)); // Output :- [  1,       2,         3,      4,       5,         6,       7,       8,         9,      10,      'Shubham', 'Tiwari',   'Delhi', 'Japan' ]
 //Add two array using concat;
 
 console.log(Object.entries(mySecondArray)); // Use entries for get key value pair for each index;
+
+
+let username = "Shubham"
+console.log(Array.from(username)); // Array.from convert string into array:
+
+let userArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(Array.isArray(userArray));
+
+let userNumber = [1, 2, 3, 4, 5]
+console.log(Array.from(userNumber, x => x * 2));
