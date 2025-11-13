@@ -1,0 +1,30 @@
+body {
+    background-color: #414141;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.container {
+    height: 240px;
+    width: 320px;
+    border: 2px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+};
+
+
+#displayShow {
+    color: red;
+}
+
+#inputText {
+    width: 80%;
+    height: 20px;
+    border-radius: 4px;
+    border: none;
+}

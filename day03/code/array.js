@@ -107,6 +107,6 @@ const studentsName = schoolStudents.reduce((acc, cur) => {
     acc[cur.name] = cur.marks;
     return acc;
 }, {});
-console.log(studentsName)
+console.log(studentsName);
 
 
