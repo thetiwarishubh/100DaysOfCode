@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Binder App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="registerUser">
+            <h1>User Register Form</h1>
+            <form class="registerForm">
+                <label for="firstname">Firstname</label>
+                <input type="text" name="" id="firstname" placeholder="Firstname" required>
+                <label for="lastname">Lastname</label>
+                <input type="text" name="" id="lastname" placeholder="Lastname" required>
+                <label for="email">Email</label>
+                <input type="email" name="" id="email" placeholder="Email" required>
+                <label for="phone">Phone No.</label>
+                <input type="number" name="" id="phone" placeholder="Phone" required>
+                <label for="password">Password</label>
+                <input type="password" name="" id="password" placeholder="Password" required>
+                <button id="submitButton" type="submit">Save User Details</button>
+            </form>
+        </div>
+    </div>
+     <div class="success-container">
+        <div class="success-card">
+            <div class="icon-wrapper">
+                <!-- You can replace this with an SVG checkmark icon for better scalability -->
+                <span class="checkmark">&#10003;</span> 
+            </div>
+            <h1>Registration Successful!</h1>
+            <p>Your account has been successfully created.</p>
+            <button class="continue-btn">Continue</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
